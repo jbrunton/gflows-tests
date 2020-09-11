@@ -2,6 +2,6 @@
 # See https://github.com/jbrunton/gflows#configuration for options.
 templates:
   engine: jsonnet
-  libs:
-  - https://raw.githubusercontent.com/jbrunton/gflows-tests/develop/my-lib.gflowslib
-  
+  defaults:
+    libs:
+    - https://raw.githubusercontent.com/jbrunton/gflows-tests/develop/my-lib.gflowslib

@@ -1,3 +1,4 @@
+local steps = import 'workflows/steps.libsonnet';
 local workflow = {
   'on': {
     push: {},
@@ -6,7 +7,7 @@ local workflow = {
     test: {
       'runs-on': 'ubuntu-latest',
       steps: [
-        { run: 'echo Hello World!' }
+        steps.run('echo Hello World!')
       ],
     },
   },

@@ -4,4 +4,4 @@ templates:
   engine: jsonnet
   defaults:
     libs:
-    - https://raw.githubusercontent.com/jbrunton/gflows-tests/develop/my-lib.gflowslib
+    - https://raw.githubusercontent.com/jbrunton/gflows-tests/develop/jsonnet-libs/my-lib.gflowslib

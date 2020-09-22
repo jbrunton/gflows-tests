@@ -1,4 +1,4 @@
-#@ load("common/steps.lib.yml", "run")
+#@ load("my-lib/common/steps.lib.yml", "run")
 "on":
   push:
     branches: [develop]

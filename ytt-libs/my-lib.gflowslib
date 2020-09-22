@@ -1,5 +1,5 @@
 {
   "libs": [
-    "common/steps.lib.yml"
+    "my-lib/common/steps.lib.yml"
   ]
 }

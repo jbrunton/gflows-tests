@@ -1,5 +1,5 @@
 {
   "libs": [
-    "common/steps.libsonnet"
+    "my-lib/common/steps.libsonnet"
   ]
 }

@@ -1,4 +1,4 @@
-local steps = import 'workflows/steps.libsonnet';
+local steps = import 'common/steps.libsonnet';
 local workflow = {
   'on': {
     push: {},

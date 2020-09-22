@@ -1,0 +1,9 @@
+#@ load("steps.lib.yml", "run")
+"on":
+  push:
+    branches: [develop]
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+    - #@ run('echo hello, world!')

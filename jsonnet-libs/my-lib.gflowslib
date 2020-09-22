@@ -1,5 +1,5 @@
 {
-  "files": [
-    "workflows/steps.libsonnet"
+  "libs": [
+    "common/steps.libsonnet"
   ]
 }

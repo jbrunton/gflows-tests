@@ -1,0 +1,7 @@
+# Config file for GFlows.
+# See https://github.com/jbrunton/gflows#configuration for options.
+templates:
+  engine: ytt
+  defaults:
+    libs:
+    - https://raw.githubusercontent.com/jbrunton/gflows-tests/develop/ytt-libs/my-lib.gflowslib
